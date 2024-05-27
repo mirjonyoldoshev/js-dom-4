@@ -1,0 +1,41 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.sidebar {
+     max-width: 300px;
+     height: 100vh;
+     background-color: darkblue;
+     padding: 20px 40px;
+     display: flex;
+     flex-direction: column;
+     gap: 50px;
+     transition: 0.5s;
+}
+li {
+     list-style: none;
+}
+.item {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     overflow: hidden;
+     color: #fff;
+}
+span {
+     font-size: 24px;
+}
+.bi {
+     font-size: 24px;
+}
+.shrink {
+     max-width: 90px;
+     padding: 30px;
+}
+.shrink .item-menu {
+     opacity: 0;
+}
+.shrink .item i {
+     display: block;
+}
